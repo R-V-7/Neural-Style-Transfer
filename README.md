@@ -30,7 +30,7 @@ To view the results generated after training the model, follow the given below s
 
 for input in test_B.skip(500).take(10):
 
-  generate_output(generator_f,generator_f1,generator_f2, input)
+   generate_output(generator_f,generator_f1,generator_f2, input)
 
 This is the function on which you can test on the test images by altering the skip(should be less than 751) and take parameters(this line of code is present at the ending of the notebook).  
    
