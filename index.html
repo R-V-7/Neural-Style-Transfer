@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Neural Style Transfer</title>
+</head>
+<body>
+    <h1>Neural Style Transfer</h1>
+    <form action="/style_transfer" method="post" enctype="multipart/form-data">
+        <label for ="style"> Choose a style </label>
+        <select name="style" id="style">
+            <option value="cezanne">Cezanne</option>
+            <option value="vangogh">Van Gogh</option>
+            <option value="ukiyoe">Ukiyoe</option>
+        <br> <br>
+        </select>
+        <label for="image"> Upload an image </label>
+        <input type="file" name="image" id="image" accept="image/*">
+        <br> <br>
+        <input type="submit" value="Stylized Image">
+    </form>
+</body>
+</html>
