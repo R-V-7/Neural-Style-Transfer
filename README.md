@@ -42,3 +42,6 @@ https://drive.google.com/file/d/14Ep7XGvRjOQL56Rf6hrwUvNc4qQ__D5y/view?usp=shari
 
 https://colab.research.google.com/drive/1U_Ur_wK1D_iKTCMtp37-SG97LEXg57DQ?usp=sharing
 
+# Dependencies
+tensorflow, tensorflow_addons, matplotlib, os, time, numpy, Flask,io,PIL
+
