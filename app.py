@@ -83,9 +83,9 @@ generator_f_cezanne=Generator()
 generator_f_vangogh=Generator()
 generator_f_ukiyoe=Generator()
 
-generator_f_cezanne.load_weights("D:\model_cezanne_epoch_70 .h5")
-generator_f_vangogh.load_weights("D:\model_vangogh_epoch_70.h5")
-generator_f_ukiyoe.load_weights("D:\model_ukiyoe_epoch_70.h5")
+generator_f_cezanne.load_weights("D:\model_cezanne_epoch_70 .h5") # Change location according to file path.
+generator_f_vangogh.load_weights("D:\model_vangogh_epoch_70.h5")  # Change location according to file path.
+generator_f_ukiyoe.load_weights("D:\model_ukiyoe_epoch_70.h5")    # Change location according to file path.
 
 def process_testing_img(img):
     if img.mode == 'RGBA':
