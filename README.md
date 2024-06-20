@@ -29,6 +29,7 @@ To view the results generated after training the model, follow the given below s
 10. If you want to run the code on google colab, you can run the google colab notebook and in the last line of the notebook, you can select how many images to take from the UC Berkeley dataset and click on run option. The results will be generated.
 
 for input in test_B.skip(500).take(10):
+
   generate_output(generator_f,generator_f1,generator_f2, input)
 
 This is the function on which you can test on the test images by altering the skip(should be less than 751) and take parameters(this line of code is present at the ending of the notebook).  
