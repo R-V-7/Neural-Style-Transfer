@@ -22,13 +22,23 @@ To view the results generated after training the model, follow the given below s
 
 8. Copy the paths of these weights and pase it in the respective generator_f.load_weights("") function.
 
-9. Press Ctrl+S and click on run option. A link where the website is hosted will be share on the terminal. Upon clicking that link you will be redirected to the website where you can choose the different styles and get the generated images.
+9. Press Ctrl+S and click on run option. A link where the website is hosted will be share on the terminal. Upon clicking that link you will be redirected to the
+
+   website where you can choose the different styles and upload images and get the generated images.
+
+10. If you want to run the code on google colab, you can run the google colab notebook and in the last line of the notebook, you can select how many images to take from the UC Berkeley dataset and click on run option. The results will be generated.
+   
+   
 
 # Model Weights
+
 https://drive.google.com/file/d/15wZeZGrkh0lBrzn1T8yvyEn1XpOiGtR3/view?usp=sharing   #Van-Gogh Model
 
 https://drive.google.com/file/d/1-iqLi6z15BZpAiOYfaDmu5AIOAUytzcs/view?usp=sharing   #Ukiyo-e Model
 
 https://drive.google.com/file/d/14Ep7XGvRjOQL56Rf6hrwUvNc4qQ__D5y/view?usp=sharing   # Cezanne Model
 
+# Google Colab Notebook
+
+https://colab.research.google.com/drive/1U_Ur_wK1D_iKTCMtp37-SG97LEXg57DQ?usp=sharing
 
