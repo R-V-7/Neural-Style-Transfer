@@ -5,9 +5,24 @@ In this project, I have used cycleGAN deep learning model in order to transform 
 
 # Installation Instructions
 To view the results generated after training the model, follow the given below steps:
+
 1.Install the python file given in app.py from GitHub, and save the python file with the name app.py on your desktop.
-2.Create a folder and inside the folder, import the app.py file which you had just stored on the computer. 
-3.Inside the same folder(in which you imported the app.py file) create another folder by the name of templates.
+
+2.Create a folder(say,by the name of project) and inside the folder, import the app.py file which you had just stored on the computer. 
+
+3.Inside the same folder(project folder) create another folder by the name of templates.
+
+4.Now, open VS Code and select File->Open Folder and select the project folder which you have just created.
+
+5.Now, right click on the templates option and select new file, and name the new file index.html.
+
+6.Now, copy the code under index.html in this repo and paste it in index.html. 
+
+7. Now, click on app.py and afterwards download the weights of the 3 models used(their google drive links are given below) and store in on your computer.
+
+8. Copy the paths of these weights and pase it in the respective generator_f.load_weights("") function.
+
+9. Press Ctrl+S and click on run option. A link where the website is hosted will be share on the terminal. Upon clicking that link you will be redirected to the website where you can choose the different styles and get the generated images.
 
 # Model Weights
 https://drive.google.com/file/d/15wZeZGrkh0lBrzn1T8yvyEn1XpOiGtR3/view?usp=sharing   #Van-Gogh Model
