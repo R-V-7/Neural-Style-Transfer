@@ -20,7 +20,7 @@ To view the results generated after training the model, follow the given below s
 
 7. Now, click on app.py and afterwards download the weights of the 3 models used(their google drive links are given below) and store in on your computer.
 
-8. Copy the paths of these weights and pase it in the respective generator_f.load_weights("") function.
+8. Copy the paths of these weights and paste it in the respective generator_f.load_weights("") function.
 
 9. Press Ctrl+S and click on run option. A link where the website is hosted will be share on the terminal. Upon clicking that link you will be redirected to the
 
@@ -28,7 +28,7 @@ To view the results generated after training the model, follow the given below s
 
 10. If you want to run the code on google colab, you can run the google colab notebook and in the last line of the notebook, you can select how many images to take from the UC Berkeley dataset and click on run option. The results will be generated. But before testing, ensure that you have mounted google drive to your colab notebook, have the model weights inside the google drive and copy the path of those model weights and paste it where the weights are loaded on the notebook(generator_f.load_weights() function).
 
-11. In the google colab notebook, generator_f is for van gogh, generator_f1 is for ukiyoe and generator_f2 is for cezanne\
+11. In the google colab notebook, generator_f is for van gogh, generator_f1 is for ukiyoe and generator_f2 is for cezanne.
 
 # MODEL_WEIGHTS
 
